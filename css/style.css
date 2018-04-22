@@ -53,8 +53,137 @@ Created by Rommel69      *
 **************************
 */
 
+body {
+    font-family: 'PT Sans', serif;
+    overflow: hidden;
+    min-width: 920px;
+}
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
+.container {
+    max-width: 920px;
+    margin: 0 auto;
+}
 
+.page-header {
+    background-color: #000000;
+    min-height: 72px;
+    margin: 0 auto;
+}
 
+.main-nav {
+    float: left;
+    width: 635px;
+    margin: 0;
+    margin-top: 29px;
+    padding: 0;
+}
+
+.main-nav li {
+    float: left;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+
+.main-nav a {
+    color: #bbbbbb;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.user-block {
+    float: right;
+    margin-top: 29px;
+    width: 67px;
+    height: 17px;
+}
+
+.user-entrance {
+    text-decoration: none;
+    color: #bbbbbb;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.entrance-logo {
+    width: 18px;
+    height: 16px;
+    margin-right: 3px;
+    margin:0;
+    padding: 0;
+    opacity: 0.7;
+}
+
+.page-content {
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 1502px;
+    background-color: black;
+    color: #f7f4f1;
+    
+}
+
+.page-content .page-logo {
+    width: 368px;
+    height: 204px;
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    
+    
+}
+
+.features .feature-item p {
+    color: #dddad8;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.features h2 {
+    color: #dddad8;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 85px;
+}
+
+.features .feature-item {
+    float: left;
+    text-align: center;
+    width: 275px;
+    height: 210px;
+    margin-right: 40px;
+    position: relative;
+}
+
+.features .feature-item::before {
+    content: "";
+    position: absolute;
+    width:40px;
+    height: 39px;
+    top: 50px;
+    left: 120px;
+    background: url(../img/spritesheet.png);
+}
+
+.features {
+    width: 910px;
+    height: 220px;
+}
+
+.features li:nth-child(3){
+    margin: 0;
+}
 

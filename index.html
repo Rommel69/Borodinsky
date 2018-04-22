@@ -3,103 +3,139 @@
 
 <html lang="ru">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8">
         <link href="css/style.css" type="text/css" rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Барбершоп &laquo;Бородинский&raquo;</title>
     </head>
     <body>
-       
-       <header class="mainHeader">
-           <div class="container">
-               <nav class="mainNavigation">
-                   <ul>
-                       <li><a href="#">Главная</a></li>
-                       <li><a href="#">Информация</a></li>
-                       <li><a href="#">Новости</a></li>
-                       <li><a href="priceList.html">Прайс-Лист</a></li>
-                       <li><a href="#">Магазин</a></li>
-                       <li><a href="#">Контакты</a></li>
-                   </ul>
-               </nav>
-               <div class="userBlock">
-                   <a class="login" href="#">Вход</a>
-               </div>
-           </div>
-       </header>
-      <main class="container">
-          <div class="indexLogo">
-              <img src="#" width="368" height="204" alt="Барбершоп &laquo;Бородинский&raquo;">
-          </div>
-          <section class="features">
-              <div class="featuresItem">
-                  <b class="featuresFast">Быстро</b>
-                  <p>Мы делаем свою работу быстро! Два часа пролетят незаметно
-                  и Вы - счастливый обладатель стильной стрижки-минутки!</p>
-              </div>
-                 <div class="featuresItem">
-                  <b class="featuresCool">Круто</b>
-                  <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду
-                  футбола и кино! Во всяком случае внешне.</p>
-              </div>
-                 <div class="featuresItem">
-                  <b class="featuresExpensive">Дорого</b>
-                  <p>Наши мастера - профессионалы своего дела и не могут стоить дешево.
-                  К тому же, разве цена не даёт определённый статус?</p>
-              </div>
-          </section>
-          <div class="indexContent">
-              <div class="indexContentLeft">
-                  <h2 class="indexContentTitle">Новости</h2>
-                  <ul class="newsPreview">
-                      <li>
-                          <p>Нам наконец завезли Ягермайстер! Теперь вы можете
-                          пропустить стаканчик вовремя стрижки</p>
-                          <time datetime="2018-04-13">13 апреля</time>
-                      </li>
-                      <li>
-                          <p>В нашей команде пополнение, Борис &laquo;Бритва&raquo;
-                          Стригунец, обладатель множества титулов и наград поплнил наши стройные ряды</p>
-                          <time datetime="2018-04-13">13 апреля</time>
-                      </li>
-                  </ul>
-                  <a class="btn" href="#">Все новости</a>
-              </div>
-              <div class="indexContentRight">
-                  <h2 class="indexContentTitle">Фотогалерея</h2>
-                  <div class="gallery">
-                      <figure class="galleryContent">
-                          <img src="#" width="286" height="164">
-                      </figure>
-                      <button class="btnGalleryPrev">Назад</button>
-                      <button class="btnGalleryNext">Вперёд</button>
-                  </div>
-              </div>
-          </div>
-          <div class="indexContent">
-              <div class="indexContentLeft">
-                  <h2 class="indexContentTitle">Контактная информация</h2>
-                  <p>Барбершоп&laquo;Бородинский&raquo;         <br>
-                   Адрес: г.Санкт-Петербург, Б.Конюшенная, Д19/8<br>
-                    Телефон+7(495)666-02-66</p>
-                  <p> Время работы: <br>
-                      Пн-Пт: С 10:00 До 22:00<br>
-                      Сб-Вс: С 10:00 до 19:00</p>
-                      <a class="btn" href="#">Как проехать  </a>
-                      <a class="btn" href="#">Обратная связь</a>
-              </div>
-              <div class="indexContentRight">
-                  <h2 class="indexContentTitle">Записаться</h2>
-                  <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-                  <form class="applyForm" action="#" method="post">
-                      <input type="text" name="date" value="" placeholder="Дата">
-                      <input type="text" name="time" value="" placeholder="Время">
-                      <input type="text" name="name" value="" placeholder="Ваше имя">
-                      <input type="tel"  name="cellphone" value="" placeholder="Телефон">
-                  </form>
-                  <button type="submit" class="btn">Отправить</button>
-              </div>
-          </div>
-      </main>
+   
+    <div class="page-header">
+        <div class="header-top">
+           <div class="container" >
+            <ul class="main-nav clearfix">
+                <li><a href="#">Информация</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Прайс-Лист</a></li>
+                <li><a href="#">Магазин</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+            <div class="user-block">
+           
+            <img class="entrance-logo" alt="Логотип входа"
+            width="18" height="16" src="img/icon-login.png">
+                
+            <a class="btn user-entrance" href="#">Вход</a>
+            </div>
+            </div>
+        </div>
+    </div>
+     
+     <section class="page-content">
+       <div class="container">
+        <div class="page-logo">
+            <img src="img/BORODINSKILogo.png" alt="Логотип Бородинский"
+            width="368" height="204">
+        </div>
+        
+         <div class="features">
+             <ul>
+                 <li class="feature-item feature-fast">
+                     <h2>Быстро</h2>
+                     
+                     <p>Мы делаем свою работу быстро! Два часа
+                     пролетят незаметно и вы - счастливый
+                     обладатель стильной стрижки-минутки!</p>
+                 </li>
+                 <li class="feature-item feature-cool">
+                    <h2>Круто</h2>
+                     <p>
+                         Забудьте, как вы стриглись раньше.
+                         Мы сделаем из вас звезду футбола
+                         или кино! Во всяком случае внешне.
+                     </p>
+                 </li>
+                 <li class="feature-item feature-expensive">
+                     <h2>Дорого</h2>
+                     <p>
+                         Наши мастера - профессионалы своего
+                         дела и не могут стоит дешево. К тому же,
+                         разве цена не даёт определённый статус?
+                     </p>
+                 </li>
+             </ul>
+         </div>
+         
+         <div class="news-block">
+             
+             <div class="left-side">
+                <div class="upper-side">
+                 <h2 class="news-title">Новости</h2>
+                 <p>
+                     Нам наконец завезли ягермайстер!
+                     Теперь вы можете пропустить
+                     стаканчик во время стрижки
+                 </p>
+                 <time datetime="2018-04-22" class="date">22 апреля</time>
+                 
+                 
+                 </div>
+                 <div class="bottom-side">
+                     
+                     <p>
+                         В нашей команде пополнение, Борис &laquo;Бритва&raquo;Стригунец, обладатель
+                          множества титулов и наград
+                           пополнил наши стройные ряды
+                     </p>
+                     <time datetime="2018-04-22">22 апреля</time>
+                     
+                 </div>
+                 <a class="btn news-btn" href="#">Все новости</a>
+             </div>
+             <div class="right-side">
+                 <h2 class="news-title">Фотогалерея</h2>
+                 <img src="#" alt="Фото барбершопа">
+                 <button class="btn gallery-prev">Назад</button>
+                 <button class="btn gallery-next">Вперёд</button>
+             </div>
+             
+         </div>
+         
+         <div class="contacts-block">
+             <div class="left-side">
+                 <h2 class="contacts-title">Контактная информация</h2>
+                 <p>
+                     Барбершоп&laquo;Бородинский&raquo; <br>
+                     Адрес: г.Санкт-Петербург, Б.Конюшенная, Д19/8<br>
+                     Телефон+7(495)666-02-66 
+                 </p>
+                 <p>
+                     Время работы: <br>
+                     Пн-Пт: С 10:00 До 22:00<br>
+                     Сб-Вс: С 10:00 до 19:00
+                 </p>
+                 <a class="btn" href="#">Как проехать</a>
+                 <a class="btn" href="#">Обратная связь</a>
+             </div>
+             
+             <div class="right-side">
+                 <h2 class="form-title">Записаться</h2>
+                 <p>Укажите желаемую дату и время
+                 мы свяжемся с вам для подтверждения брони</p>
+                 <form class="apply-form" action="#" method="post">
+                     <input type="text" name="date" value="" placeholder="Дата">
+                     <input type="text" name="time" value="" placeholder="Время">
+                     <input type="text" name="name" value="" placeholder="Ваше имя">
+                     <input type="tel" name="cellphone" value="" placeholder="Телефон">
+                 </form>
+                 <input type="submit" class="btn" value="Отправить">
+                 </div>
+             </div>
+         </div>
+     </section>
+      
+      
        <footer class="mainFooter">
            <div class="container">
               <section class="footerContacts">
