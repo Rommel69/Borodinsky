@@ -1,5 +1,3 @@
-# nerds
+# borodinski 
 
-First changes.
-Here will be a new project
-123
+A web-site.
