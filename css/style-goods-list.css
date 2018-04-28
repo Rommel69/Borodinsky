@@ -63,7 +63,7 @@ body {
     background-color: #ffffff;
 }
 .container {
-    max-width: 940px; /**1130**/
+    max-width: 940px; 
     margin: 0 auto;
 }
 
@@ -90,7 +90,6 @@ body {
     width: 1130px;
     margin: 0;
     padding: 0;
-    
 }
 
 .main-nav li {
@@ -121,7 +120,6 @@ body {
     margin-top: 59px;
     width: 310px;
     height: 70px;
-    
 }
 
 .content-nav li {
@@ -145,8 +143,6 @@ body {
 
 .content-nav li:last-child {
     padding-right: 0;
-     
-    
 }
 
 .content-nav a {
@@ -163,13 +159,10 @@ body {
     height: 0px;
     padding-bottom: 20;
     font-size: 14px;
-    
 }
 
 input[type="checkbox"] {
-    border: 2px solid black;
-    list-style: none;
-    text-decoration: none;
+	
 }
 
 .checkbox-list  {
