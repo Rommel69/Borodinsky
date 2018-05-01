@@ -79,31 +79,32 @@ body {
 
 .main-header {
     background-color: #000000;
-    min-height: 72px;
+    min-height: 75px;
     margin: 0 auto;
 }
 
 .main-nav {
     float: left;
-     width: 940px;
+    width: 940px;
+    height: 75px;
     margin: 0;
-    margin-left: 25px;
     padding: 0px;
 }
 
 .main-nav li {
     float: left;
-    padding: 30px;  
+    padding: 30px;
+    margin-bottom: 0;
 }
 
  .user-block {
-    display: block;
-    float: left;
+    float: right;
+    margin-left: 150px;
 }
 
 .user-login {
     float: right;
-    margin-left: 3px;
+    margin-left: 5px;
 }
 
 .main-nav li:hover {
